@@ -8,6 +8,8 @@ useEffect(() => {
 const lenis = new Lenis({
     lerp: 0.1,
     smooth: true,
+    smoothTouch: true,  
+    syncTouch: true
 })
 lenisRef.current = lenis
 
