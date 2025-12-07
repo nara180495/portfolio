@@ -78,10 +78,10 @@ const CorinaAltaReposteria = () => {
 
 {/*sección 2 explicación*/}
 
-        <section className='bg-[var(--color-cream)] flex flex-col md:flex-row h-[800px] w-full 
+        <section className='bg-[var(--color-cream)] flex flex-col md:flex-row h-auto w-full 
                 not-md:divide-y-1 md:divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)]'>
                 
-            <div className='md:h-full md:w-3/8 not-md:w-full not-md:h-2/8 flex flex-row md-flex-col p-[1em]'>
+            <div className='md:h-auto md:w-3/8 not-md:w-full not-md:h-2/8 flex flex-row md-flex-col p-[1em]'>
                 <div className='flex md:flex-col flex-row w-full  space-x-5 md:space-y-5 overflow-hidden'>
                     <div className=' md:h-1/2 md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)] overflow-hidden'>
                         <img src={corina2} className="object-cover h-full w-full"/>
@@ -93,7 +93,7 @@ const CorinaAltaReposteria = () => {
                 </div>
             </div>
                 
-            <div className=' md:h-full md:w-4/8 not-md:w-full not-md:h-full p-[1em]
+            <div className=' md:h-auto md:w-4/8 not-md:w-full not-md:h-full p-[1em]
         '>
                 <div className=' flex flex-col h-full justify-between space-y-20'>
                     <div className=' h-full 2xl:w-3/4 not-italic text-[var(--color-midnight)]'>
@@ -109,8 +109,8 @@ const CorinaAltaReposteria = () => {
                 </div>
             </div>
 
-            <div className=' md:h-full md:w-1/8 not-md:w-full not-md:h-1/8 p-[1em]'>
-                <div className='grid w-full h-full not-md:grid-cols-6 md:grid-rows-6 gap-3' >
+            <div className=' md:h-auto md:w-1/8 not-md:w-full not-md:h-1/8 p-[1em]'>
+                <div className='grid w-full md:h-full not-md:min-h-[20vw] not-md:grid-cols-6 md:grid-rows-6 gap-3' >
                     <div className='bg-[#AFBBB1] w-full h-full border-1 border-[var(--color-electric)]'></div>
                     <div className='bg-[#DAB4A9] w-full h-full border-1 border-[var(--color-electric)]'></div>
                     <div className='bg-[#EFD8D0] w-full h-full border-1 border-[var(--color-electric)]'></div>
