@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: 'Behind the Nineties Sans';
+  src: 
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable.woff2') format(woff2-variations),
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable.woff') format(woff-variations);
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Behind the Nineties Sans';
+  src: 
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable-Italic.woff2') format(woff2-variations),
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable-Italic.woff') format(woff-variations);
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+body {
+  font-family:'Behind the Nineties Sans', 'sans-serif';
+  font-style: italic;
+  background: #0f0a31;
+  overflow: hidden;
+  display:block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+}
+
+:root {
+  --color-midnight: #0f0a31;
+  --color-mid: #5b21b6;
+  --color-electric: #4a1df4;
+  --color-lilac: #7a6efe;
+  --color-lavander: #b5d6ff;
+  --color-blueish: #c7f0ff;
+  --color-cream: #f2f2f2;
+}
+
+.moveX {
+  animation-name: moveAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveLink {
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.link:hover .moveLink {
+  opacity: 1;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

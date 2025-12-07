@@ -1,0 +1,26 @@
+@import 'animate.css';
+
+
+@font-face {
+  font-family: 'Behind the Nineties Sans';
+  src: 
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable.woff2') format(woff2-variations),
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable.woff') format(woff-variations);
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Behind the Nineties Sans';
+  src: 
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable-Italic.woff2') format(woff2-variations),
+    url('./assets/fonts/Behind-The-Nineties-Sans-Variable-Italic.woff') format(woff-variations);
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+input,
+textarea {
+  font-family: 'Behind the Nineties Sans';
+}
+
