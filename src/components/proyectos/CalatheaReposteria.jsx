@@ -85,13 +85,14 @@ const CalatheaReposteria = () => {
 
 <section className='bg-[var(--color-cream)] flex flex-col md:flex-row h-auto w-full 
 not-md:divide-y-1 md:divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)]'>
+    
 
         <div className='md:h-auto md:w-3/8 not-md:w-full not-md:h-2/8 flex flex-row md-flex-col p-[1em]'>
             <div className='flex md:flex-col flex-row w-full  space-x-5 md:space-y-5 overflow-hidden'>
-                <div className=' md:h-1/2 md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)] overflow-hidden'>
+                <div className=' md:h-[400px] md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)] overflow-hidden'>
                     <img src={calathea2} className="object-cover h-full w-full"/>
                 </div>
-                <div className='md:h-1/2 md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)]'>
+                <div className='md:h-[400px] md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)]'>
                     <img src={calathea3} className="object-cover h-full w-full"/>
                 </div>
             </div>
@@ -101,12 +102,13 @@ not-md:divide-y-1 md:divide-x-1 divide-[var(--color-electric)] border-b-1 border
         '>
             <div className=' flex flex-col h-full justify-between space-y-20'>
                 <div className=' h-full 2xl:w-3/4 not-italic text-[var(--color-midnight)]'>
-                    <p>La Morera es un camping situado en la sierra de la provincia de Tarragona. Con una situación idílica consiguen llegar cada vez a más gente, ampliando su recinto y sus recursos. Debido a esto, han llegado a un punto de inflexión en el que necesitaban mejorar sus servicios. Así nació esta colaboración.< br/>< br/>
-                    El diseño de la marca (anteriormente inexistente) necesitaba ser actual, hogareña y versátil, por lo que me centré en crear una identidad que pudiera evolucionar y formar parte del entorno sin dejar de ser actual. Se generó una amplia gama de recursos con una simbología clara, identificable y con un tono cálido. Interesaba bastante la idea de poder jugar con ella, acercándose así a un tono desenfadado pero curioso.< br/>< br/>
-                    Al estar en expansión metafórica y físicamente, era necesario facilitar a todos los huéspedes una manera de acceder a toda la información del camping, sin necesidad de recorrer toda la distancia de este gran extenso recinto. Por esa casuística se crea el proyecto de la aplicación móvil, donde poder reservar no solamente la estancia, si no todas las actividades que se quieran, reservar en el restaurante e incluso enterarse de las ofertas del mini supermercado.< br/>< br/></p>
+                    <p>Calathea repostería creativa es una pastalería en el centro de Granada. Especializada en tartas personalizadas más asequibles para un público más joven.< br/>< br/>
+                    Su objetivo es ser la mano que traduce tus ideas en tartas reales, por ello desarrollé una marca que nos hiciera imaginar, crear e ilusionar a todos, y así poder plasmar su sueño igual que ellos el de sus clientes.< br/>< br/>
+                    La gran mayoría de pastelerías de alta repostería o creativas centra su branding en su creadora o repostera principal. La clave de este proyecto era hacer lo contrario, que la marca viviera en la gente. Centrarnos en facilitar la personalización del producto para un amplio público, desde los mas mayores a los más pequeños. Que sientan que están en el lugar correcto donde crear magia.< br/>< br/>
+                    La estrategía fue esa, usar los sueños del cliente como punto clave para toda la marca. Con un estilo de fotografía de producto al natural y vibrante y una línea gráfica clara y mágica conseguí una buena coherencia de marca junto a la experiencia real ofrecida en el local.</p>
                 </div>
                 <div className=' flex md:text-[3vw] text-[6vw] text-[var(--color-electric)] text-right justify-end leading-[1em]'>
-                    <h3>"todo un paraíso <br />oculto en Tarragona"</h3>
+                    <h3>“haz tus dulces <br />sueños realidad”</h3>
                 </div>
             </div>  
         </div>

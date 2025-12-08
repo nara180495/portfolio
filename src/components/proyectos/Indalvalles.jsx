@@ -89,11 +89,11 @@ return (
         
                     <div className='md:h-auto md:w-3/8 not-md:w-full not-md:h-2/8 flex flex-row md-flex-col p-[1em]'>
                         <div className='flex md:flex-col flex-row w-full  space-x-5 md:space-y-5 overflow-hidden'>
-                            <div className=' md:h-1/2 md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)] overflow-hidden'>
+                            <div className=' md:h-[400px] md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)] overflow-hidden'>
                                 <img src={indalvalles2} className="object-cover h-full w-full"/>
                                     
                             </div>
-                            <div className='md:h-1/2 md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)]'>
+                            <div className='md:h-[400px] md:w-full not-md:w-1/2 border-1 border-[var(--color-electric)]'>
                                 <img src={indalvalles3} className="object-cover h-full w-full"/>
                             </div>
                         </div>
