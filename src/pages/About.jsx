@@ -95,7 +95,7 @@ const About = () => {
                     <div className=" mx-auto flex flex-col w-full justify-between"> 
                         <h2 className='p-[1em] text-[6vw] md:text-3xl text-[var(--color-electric)] leading-[1em] '>Design thinking o como diseñar < br/> para el comercio de barrio
                         </h2>
-                        <p className='p-[1em] xl:w-3/4 text-[var(--color-midnight)] not-italic align-bottom text-sm'>
+                        <p className='p-[1em] xl:w-3/4 text-[var(--color-midnight)] not-italic align-bottom '>
                         Al trabajar independientemente para pequeños negocios y de cara al público, no solo aprendes a comunicarte y comprender, sino que te encuentras en la tesitura de adaptarte rápido a cualquier circunstancia y ambiente.< br/>< br/>
                         He trabajado como empleada y diseñadora para muchos de ellos. Sus necesidades suelen ser generar una pieza que puedan ellos actualizar o cambiar constantemente. No suele destacar por ser extremadamente creativo, sino por ser un producto en el que prevalece lo funcional y eficaz.< br/>< br/>
                         Aquí es donde se hace denotar el diseño centrado a todos los usuarios. No solamente el público objetivo de tu cliente, si no tu cliente incluido también. Por ello mi función hasta ahora ha sido ayudar a que su idea, pequeña o grande, sea real. < br/>< br/>
@@ -139,7 +139,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col w-3/4 md:w-6/7">
                         <h3 className="p-[0.5em] text-lg text-[var(--color-electric)] border-b-1 border-[var(--color-lilac)]/40">Áreas</h3>
-                        <div className="flex flex-col text-xs not-italic w-full divide-y-1 divide-[var(--color-lilac)]/40">
+                        <div className="flex flex-col  not-italic w-full divide-y-1 divide-[var(--color-lilac)]/40">
                             <ul className=" flex flex-row justify-start ">
                                 <li className=" w-[20vw] p-[1em]">Branding</li>
                                 <li className=" w-[20vw] p-[1em]">Diseño UX/UI</li>
@@ -169,7 +169,7 @@ const About = () => {
                                 <li className="w-1/4 xl:w-/1/7 p-[0.5em] ">Centro</li>
                                 <li className="w-1/4 xl:w-1/7 p-[0.5em] ">Año</li>
                             </ul>
-                        <div className="flex flex-col text-xs not-italic w-full divide-y-1 divide-[var(--color-lilac)]/40">
+                        <div className="flex flex-col  not-italic w-full divide-y-1 divide-[var(--color-lilac)]/40">
                             <ul className=" flex flex-row justify-start ">
                                 <li className="w-2/4 md:w-3/7 xl:w-2/7 p-[1em] font-semibold">Certificado Profesional en Desarrollo Front-End</li>
                                 <li className=" w-1/4 xl:w-/1/7 p-[1em]">Meta (online)</li>
