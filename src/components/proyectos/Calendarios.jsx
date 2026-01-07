@@ -34,7 +34,7 @@ return (
       </div>
     </div>
 
-    <section className='bg-[var(--color-lavander)] h-[30vh] md:h-[70vh] w-full overflow-hidden flex md:flex-row divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)] '>
+    <section className='bg-[var(--color-lavander)] h-auto md:h-[70vh] w-full overflow-hidden flex md:flex-row divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)] '>
         
       <div className=' flex-none w-[5em] p-[1em] pt-[2em]'>
         <div className=''>

@@ -18,7 +18,7 @@ const About = () => {
 
 {/* mi perfil */}
 
-            <section className="w-full flex flex-col md:flex-row md:h-[60vh] h-[90vh] p-[1em] pt-10 pb-10 border-b-1 border-[var(--color-electric)]"> 
+            <section className="w-full flex flex-col md:flex-row xl:h-[60vh] sm:h-auto p-[1em] pt-10 pb-10 border-b-1 border-[var(--color-electric)]"> 
                 <div className="md:w-1/2 flex flex-row border-1 border-[var(--color-electric)]">
                     <div className="relative flex w-full md:h-full h-[30vh]">
                         <img src={img1} className=" w-full object-cover"/>
@@ -83,7 +83,7 @@ const About = () => {
                     <VideoKikaHorizontal />
                 </div>
             </div>
-            <section className='bg-[var(--color-cream)] h-[100vh] md:h-[90vh] w-full overflow-hidden flex md:flex-row divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)] '>
+            <section className='bg-[var(--color-cream)] h-auto  w-full overflow-hidden flex md:flex-row divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)] '>
                         
                 <div className=' flex-none w-[5em] p-[1em]'>
                     <div className=''>
@@ -91,7 +91,7 @@ const About = () => {
                     </div>
                 </div>
             
-                <div  className='flex flex-grow md:flex-none md:w-1/2'>
+                <div  className='flex flex-grow md:flex-none md:w-1/2 '>
                     <div className=" mx-auto flex flex-col w-full justify-between"> 
                         <h2 className='p-[1em] text-[6vw] md:text-3xl text-[var(--color-electric)] leading-[1em] '>Design thinking o como diseñar < br/> para el comercio de barrio
                         </h2>

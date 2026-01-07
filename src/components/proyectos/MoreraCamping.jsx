@@ -31,7 +31,7 @@ const MoreraCamping = () => {
             </div>
         </div>
 
-        <section className='bg-[var(--color-lavander)] h-[30vh] md:h-[70vh] w-full overflow-hidden flex md:flex-row divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)] '>
+        <section className='bg-[var(--color-lavander)] h-auto md:h-[70vh] w-full overflow-hidden flex md:flex-row divide-x-1 divide-[var(--color-electric)] border-b-1 border-[var(--color-electric)] '>
             
             <div className=' flex-none w-[5em] p-[1em] pt-[2em]'>
                 <div className=''>
@@ -44,7 +44,7 @@ const MoreraCamping = () => {
                     <h2 className='text-[6vw] md:text-[3em] text-[var(--color-electric)] leading-[3em] md:leading-[1em] '>La Morera Camping</h2>
                     <p className=' text-[var(--color-midnight)] not-italic '>
                         La Morera es un camping del siglo XXI, dando un servicio útil, sencillo y rápido para sus clientes. < br/>
-                        Para ello se ha realizado un branding campestre y amable sin perder una línea gráfica actual. También está en proceso de desarrollo el prototipado de la aplicación de reservas e información del camping.
+                        Para ello se ha realizado un branding campestre y amable sin perder una línea gráfica actual. También se ha reañizado el prototipado de la aplicación de reservas e información del camping.
                     </p>
                 </div>
             </div>

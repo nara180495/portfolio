@@ -15,7 +15,7 @@ const Contact = () => {
 
 {/* info */}   
 
-            <section className="flex lg:flex-row flex-col border-y-1 border-[var(--color-electric)] not-lg:h-full lg:h-[70vh] lg:divide-x-1 divide-[var(--color-electric)] lg:mb-10 mb-20">               
+            <section className="flex lg:flex-row flex-col border-y-1 border-[var(--color-electric)] not-lg:h-auto lg:h-[70vh] lg:divide-x-1 divide-[var(--color-electric)] lg:mb-10 mb-20">               
                 <div className="lg:w-1/2 w-full flex flex-col divide-y-1 divide-[var(--color-electric)]">
                     <div className=" flex flex-row h-full p-[1em] space-x-5">
         {/* gif kika */}                
@@ -25,7 +25,7 @@ const Contact = () => {
                             </div>
                         </div>
         {/* pekeña info */} 
-                        <div className="xl:w-3/5 w-1/2 h-full not-italic">
+                        <div className="xl:w-3/5 w-1/2 h-auto not-italic">
                             
                             <p className="xl:w-2/3">¿Te interesa que trabajemos juntos o tienes algún proyecto en mente? < br/>< br/>
                             Puedes contactar conmigo a través del siguiente formulario, por correo o por Linkedin y me pondré en contacto lo antes posible.< br/>< br/>
@@ -34,12 +34,12 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="hidden text-[var(--color-electric)] not-italic uppercase font-medium p-[0.5em] md:flex flex-wrap justify-between content-center">
-                        <div>
+                    <div className="h-auto text-[var(--color-electric)] not-italic uppercase font-medium p-[0.5em] flex flex-row justify-between ">
+                        <div className="flex">
                             <a href="https://www.linkedin.com/in/bzgzjz/" target="_blank" rel="noreferrer"> [LinkedIn] </a> 
                             
                         </div>
-                        <div>
+                        <div className="flex text-right">
                             <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDpKBqJqwdXjRtrzJQZCZTscmfPzsGfhtLxMNTJbrRQZVlKxBxHVWBPZlCxRLXWpjlZLqpQ" mailto="mailto:beag.design@gmail.com" target="_blank" rel="noreferrer"> [beag.design@gmail.com] </a>
                         </div>
                     </div>
